@@ -26,7 +26,7 @@ const Hero = () => {
           loop
           className='absolute w-auto h-full top-40 object-cover w-full md:top-40 md:left-0 md:w-full md:h-full md:left-60 md:top-20'
         >
-          <source src="/blackhole.webm" type="video/webm"/>
+          <source src="./blackhole.webm" type="video/webm"/>
         </video>
       </div>
 
