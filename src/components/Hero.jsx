@@ -6,7 +6,7 @@ import {
   slideInFromTop,
 } from "../utils/motion.js";
 import { styles } from "../styles.js";
-import { resume } from "../assets/index.js";
+import { resume, hole } from "../assets/index.js";
 
 const Hero = () => {
   const handleSmoothScroll = (e, targetId) => {
@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto overflow-hidden ${styles.paddingX}`}>
       <div className="absolute w-auto h-full top-40 object-cover w-full md:top-40 md:left-0 md:w-full md:h-full md:left-60 md:top-20 inset-0 z-0">
-        <img src="./blekhole.png" />
+        <img src={hole} />
       </div>
 
       <motion.div

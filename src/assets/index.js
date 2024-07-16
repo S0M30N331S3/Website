@@ -49,7 +49,7 @@ import pdf3 from "./cert3.jpg"
 import pdf4 from "./cert4.jpg"
 
 import resume from "./resume.pdf"
-
+import hole from "./blekhole.png"
 
 
 export {
@@ -96,4 +96,5 @@ export {
   pdf3,
   pdf4,
   resume,
+  hole,
 };
