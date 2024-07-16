@@ -19,11 +19,8 @@ const Hero = () => {
 
   return (
     <section className={`relative w-full h-screen mx-auto overflow-hidden ${styles.paddingX}`}>
-      <div className="absolute inset-0 z-0">
-        <img src="./blekhole.png" 
-          className='absolute w-auto h-full top-40 object-cover w-full md:top-40 md:left-0 md:w-full md:h-full md:left-60 md:top-20'
-        >
-        </img>
+      <div className="absolute w-auto h-full top-40 object-cover w-full md:top-40 md:left-0 md:w-full md:h-full md:left-60 md:top-20 inset-0 z-0">
+        <img src="./blekhole.png" />
       </div>
 
       <motion.div
