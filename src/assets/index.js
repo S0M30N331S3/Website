@@ -50,6 +50,10 @@ import pdf4 from "./cert4.jpg"
 
 import resume from "./resume.pdf"
 import hole from "./blekhole.png"
+import rock from "./rock.png"
+import ufo from "./ufo.png"
+import nyan from "./nyan.jpg"
+import moon from "./moon.png"
 
 
 export {
@@ -97,4 +101,8 @@ export {
   pdf4,
   resume,
   hole,
+  rock,
+  ufo,
+  nyan,
+  moon,
 };

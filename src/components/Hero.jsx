@@ -6,7 +6,7 @@ import {
   slideInFromTop,
 } from "../utils/motion.js";
 import { styles } from "../styles.js";
-import { resume, hole } from "../assets/index.js";
+import { resume, hole, rock, ufo, nyan, moon} from "../assets/index.js";
 
 const Hero = () => {
   const handleSmoothScroll = (e, targetId) => {
@@ -19,9 +19,16 @@ const Hero = () => {
 
   return (
     <section className={`relative w-full h-screen mx-auto overflow-hidden ${styles.paddingX}`}>
-      <div className="absolute w-auto h-full top-40 object-cover w-full md:top-40 md:left-0 md:w-full md:h-full md:left-60 md:top-20 inset-0 z-0">
-        <img src={hole} />
+      <img src={hole} className="absolute h-[1000px] w-[750x] -right-[80px] top-[80px]" />
+      <div className="absolute inset-0 z-0">
       </div>
+      <img src={ufo} className="absolute h-[300px] w-[400px] top-20 left-80"/>
+      <div className="absolute z-0 h-full w-full left-80">
+      </div>
+      <img src={rock} className="absolute h-[200px] w-[200px] bottom-10 left-[750px]"/>
+      <img src={nyan} className="absolute h-[400px] w-[250px] -bottom-40 left-0"/>
+      <img src={moon} className="absolute h-[225px] w-[200px] top-20 left-[1050px]"/>
+
 
       <motion.div
         initial="hidden"
